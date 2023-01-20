@@ -1,0 +1,63 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.orange-color {
+    color: lightsalmon;
+}
+
+.hire-button {
+    color: white;
+    padding: 25px 50px;
+    background-color: rgb(235, 98, 48);
+    border-radius: 15px;
+}
+
+.nav-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+
+
+
+}
+
+.style {
+    margin-left: 90px;
+    font-size: 50px;
+}
+
+.style-1 a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.intro-1 {
+    font-size: 60px;
+}
+
+.intro-2 {
+    font-size: 90px;
+    margin-top: -30px;
+}
+
+.intro-3 {
+    font-size: 20px;
+    color: gray;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+
+.cv {
+
+    color: white;
+    padding: 20px 40px;
+    background-color: lightsalmon;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
