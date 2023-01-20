@@ -3,13 +3,13 @@ body {
 }
 
 .orange-color {
-    color: lightsalmon;
+    color: #FD6E0A;
 }
 
 .hire-button {
     color: white;
     padding: 25px 50px;
-    background-color: rgb(235, 98, 48);
+    background-color: #FD6E0A;
     border-radius: 15px;
 }
 
@@ -60,4 +60,25 @@ body {
     text-decoration: none;
     border-radius: 15px;
 
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.background {
+    background-color: rgb(240, 222, 197);
+}
+
+.developer-img {
+    margin: 40px 0px;
+}
+
+.display-flex-1 {
+    display: flex;
+}
+
+.cover-img {
+    margin-top: 185px;
 }
