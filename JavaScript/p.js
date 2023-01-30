@@ -21,6 +21,6 @@
 // console.log(totalPrice, priceDifference, priceMultipication, divitionOfPrice);
 
 
-var firstName = "Ahanf"
-var lastName = "Akib"
+var firstName = "Ahanf";
+var lastName = "Akib";
 console.log(firstName + " " + lastName);
