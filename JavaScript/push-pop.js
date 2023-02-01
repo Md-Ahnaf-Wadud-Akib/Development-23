@@ -49,6 +49,8 @@ var cat = "Oreo";
 if (cat != "Oreo") {
     console.log("Oreo is a cat");
 }
+// else statement 
+// and this is a comment 
 else {
     console.log("Oreo is a food");
 }
