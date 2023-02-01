@@ -19,7 +19,11 @@
 
 var num1 = [23, 34, 45, 56, 67, 78, 89, 90], i;
 
-for (i = 0; i <= 7; i++) {
+// for (i = 0; i <= 7; i++) {
+//     indexNum1 = num1[i];
+//     console.log(indexNum1);
+// }
+for (i = 0; i < num1.length; i++) {
     indexNum1 = num1[i];
     console.log(indexNum1);
 }
