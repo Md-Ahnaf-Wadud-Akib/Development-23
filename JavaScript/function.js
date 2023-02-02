@@ -48,4 +48,16 @@ function bringFood(money) {
 
 var money = 999;
 var food = bringFood(money);
-console.log(food);
+var foodInt = Math.floor(food);
+console.log(foodInt);
+
+function phonePrice(money) {
+    var samsung = 17;
+    quantity = money / samsung;
+    return quantity;
+}
+
+var money = 20
+var phone = phonePrice(money);
+var phone = Math.floor(phone);
+console.log("you will get ", phone, " at this price");
