@@ -6,36 +6,46 @@
 // say();
 
 // function foodValue(taka) {
-//     if (taka == 0) {
-//         console.log("gave me no money to bring the food");
+// //     if (taka == 0) {
+// //         console.log("gave me no money to bring the food");
+// //     }
+// //     else {
+// //         console.log("gave me ", taka, " to bring the food");
+// //     }
+// // }
+
+// // foodValue(100);
+// // foodValue(150);
+// // foodValue(0);
+
+// function result(marks) {
+//     if (marks > 80) {
+//         console.log("your result is A+");
+//     }
+//     else if (marks > 70) {
+//         console.log("Youer result is A");
+//     }
+//     else if (marks > 60) {
+//         console.log("your result is A-");
 //     }
 //     else {
-//         console.log("gave me ", taka, " to bring the food");
+//         console.log("Your result is laddu-guddu");
 //     }
 // }
 
-// foodValue(100);
-// foodValue(150);
-// foodValue(0);
+// var student1 = 62;
+// var student2 = 42;
+// console.log("result of student1 is :");
+// result(student1);
+// console.log("result of student2 is :");
+// result(student2);
 
-function result(marks) {
-    if (marks > 80) {
-        console.log("your result is A+");
-    }
-    else if (marks > 70) {
-        console.log("Youer result is A");
-    }
-    else if (marks > 60) {
-        console.log("your result is A-");
-    }
-    else {
-        console.log("Your result is laddu-guddu");
-    }
+function bringFood(money) {
+    var applePrice = 30;
+    totalApple = money / applePrice;
+    return totalApple;
 }
 
-var student1 = 62;
-var student2 = 42;
-console.log("result of student1 is :");
-result(student1);
-console.log("result of student2 is :");
-result(student2);
+var money = 999;
+var food = bringFood(money);
+console.log(food);
