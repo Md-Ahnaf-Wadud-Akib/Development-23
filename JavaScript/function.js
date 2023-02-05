@@ -84,4 +84,6 @@ function divitionOfNumbers(num1, num2) {
 
 var first = 7, second = 9;
 var total = divitionOfNumbers(first, second);
-console.log("the resut of divition is: ", total); 
+console.log("the resut of divition is: ", total);
+
+
