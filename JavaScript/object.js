@@ -47,10 +47,18 @@
 // };
 
 var array = [12, 23, 34, 45, 56, 67, 78, 89, 90, 65, 54, 43, 21];
-for (i = 0; i < array.length; i++) {
-    var arrayNumber = array[i];
-    if (arrayNumber > 50) {
-        continue;
-    }
-    console.log(arrayNumber);
-};
+// for (i = 0; i < array.length; i++) {
+//     var arrayNumber = array[i];
+//     if (arrayNumber > 50) {
+//         continue;
+//     }
+//     console.log(arrayNumber);
+// };
+
+var arrayIndexValue = array.indexOf(45);
+if (arrayIndexValue == -1) {
+    console.log("there is no such value in the database");
+}
+else {
+    console.log("the value do exist in the database");
+}
