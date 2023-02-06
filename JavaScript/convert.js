@@ -52,11 +52,24 @@
 // let result = factorial(inputNumber);
 // console.log("the result is:", result);
 
+// function factorial(n) {
+//     let i = 1, fact = 1;
+//     while (i <= n) {
+//         fact = fact * i;
+//         i++;
+//     }
+//     return fact;
+// }
+
+// let input = 3;
+// let result = factorial(input);
+// console.log(result);
+
 function factorial(n) {
-    let i = 1, fact = 1;
-    while (i <= n) {
+    let fact = 1, i = n;
+    while (i >= 1) {
         fact = fact * i;
-        i++;
+        i--;
     }
     return fact;
 }
