@@ -65,15 +65,27 @@
 // let result = factorial(input);
 // console.log(result);
 
+// function factorial(n) {
+//     let fact = 1, i = n;
+//     while (i >= 1) {
+//         fact = fact * i;
+//         i--;
+//     }
+//     return fact;
+// }
+
+// let input = 3;
+// let result = factorial(input);
+// console.log(result);
+
 function factorial(n) {
-    let fact = 1, i = n;
-    while (i >= 1) {
+    let i, fact = 1;
+    for (i = n; i >= 1; i--) {
         fact = fact * i;
-        i--;
     }
     return fact;
-}
+};
 
-let input = 3;
+let input = 7;
 let result = factorial(input);
 console.log(result);
