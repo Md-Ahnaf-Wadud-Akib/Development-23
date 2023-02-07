@@ -102,4 +102,3 @@ let input = 3;
 let result = factorial(input);
 console.log(result);
 
-// commenting
