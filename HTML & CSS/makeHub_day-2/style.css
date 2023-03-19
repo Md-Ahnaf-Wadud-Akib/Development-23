@@ -27,7 +27,145 @@
 }
 
 .slideSize {
-    width: 2000px;
+    width: 1903px;
     height: 2000px;
     position: relative;
+}
+
+.posi-abs {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.intro-button {
+    margin-left: 60px;
+    padding: 12px 28px;
+    background-color: orangered;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.intro-button-2 {
+    padding: 12px 28px;
+    background-color: orangered;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+/* Search box */
+.search-box {
+    width: 20%;
+
+
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+
+    font-size: 16px;
+    padding: 15px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.3);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+}
+
+.search-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-square-phone {
+    color: #25D366;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.fa-facebook {
+    color: #4267B2;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* Cards */
+
+.card-1 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 70px;
+    box-shadow: 1px solid gray;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 120px;
+    box-shadow: 10px 10px 40px #888888;
+
+}
+
+.card-1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -130px;
+    margin-left: 28%;
+    background-color: bisque;
+    padding: 5px;
+
+}
+
+
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+    position: relative;
+}
+
+.justify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button {
+    padding: 15px 30px;
+    background-color: orangered;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
 }
