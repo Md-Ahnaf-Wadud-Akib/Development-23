@@ -150,7 +150,7 @@
 
 .card-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: -200px;
     position: relative;
 }
@@ -169,3 +169,5 @@
     color: white;
     margin-left: 35px;
 }
+
+/* Second Slide */
