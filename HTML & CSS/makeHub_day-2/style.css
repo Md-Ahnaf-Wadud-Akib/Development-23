@@ -1,3 +1,5 @@
+/* Navigation bar */
+
 .flex-1 {
     display: flex;
     justify-content: center;
@@ -18,24 +20,34 @@
     margin-top: 30px;
 }
 
+.nav-button a {
+    /* text-shadow: 5px 5px 5px gray; */
+    font-size: 18px;
+}
+
 .b1-design {
     padding: 10px 10px;
     background-color: orangered;
     border-radius: 20px;
     text-decoration: none;
     color: white;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .slideSize {
-    width: 1903px;
+    width: 1349px;
     height: 2000px;
     position: relative;
 }
 
+.slide-size img {
+    width: 1500px;
+}
+
 .posi-abs {
     position: absolute;
-    top: 20%;
-    left: 30%;
+    top: 13%;
+    left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 
@@ -67,7 +79,7 @@
 
 /* Search box */
 .search-box {
-    width: 20%;
+    width: 30%;
 
 
     position: absolute;
@@ -171,3 +183,313 @@
 }
 
 /* Second Slide */
+
+.second-slide img {
+    width: 50px;
+    height: 70px;
+
+}
+
+
+
+.second-slide {
+    width: 1349px;
+    height: 10px;
+
+}
+
+.secondSl-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Our Services */
+.previous-next {
+    padding: 1px 5px;
+    border-radius: 25px;
+}
+
+.previous-padding {
+    margin-right: 20px;
+}
+
+.fa-angle-left {
+    color: black;
+
+}
+
+.fa-angle-right {
+    color: black;
+}
+
+.services-position {
+    position: absolute;
+    top: 180%;
+    /* left: 30%; */
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    color: black;
+    font-size: 16px;
+    padding: 120px 240px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; */
+    background-color: rgb(235, 234, 234);
+    width: 1348px;
+    height: 600px;
+}
+
+/* .services-gaping-2 {
+    margin-left: 800px;
+} */
+
+.services-gaping-1 {
+    margin-right: 300px;
+    margin-left: 80px;
+}
+
+.secondSl-flex-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.services-cards {
+    margin-top: 60px;
+
+}
+
+.services-cards img {
+    width: 220px;
+    height: 290px;
+    cursor: default;
+}
+
+.services-cards img:hover {
+    position: relative;
+    top: -10%;
+}
+
+.secondSl-flex-2 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.services-cards-button {
+    padding: 6px 10px;
+    background-color: orangered;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.service-button-position {
+    position: absolute;
+    top: 70%;
+    /* margin-left: 10px; */
+    padding: 5px 10px 5px 5px;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.ourMission-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.family-pic img {
+    width: 674px;
+    height: 685px;
+    position: absolute;
+}
+
+.ad {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    position: absolute;
+    top: 271%;
+
+}
+
+.ad-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: grey;
+    position: absolute;
+    top: 373%;
+    color: white;
+}
+
+.ad-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    position: absolute;
+    top: 474%;
+}
+
+.solar-worker img {
+    width: 674px;
+    height: 729px;
+    position: absolute;
+}
+
+.ad-4 {
+    display: grid;
+    grid-template-columns: 800px 549px;
+    background-color: rgb(235, 234, 234);
+    position: absolute;
+    top: 580%;
+}
+
+.uk-map img {
+    width: 474px;
+    height: 685px;
+    position: absolute;
+}
+
+.save-bills img {
+    width: 674px;
+    height: 663px;
+    position: absolute;
+}
+
+.check-items {
+    display: grid;
+    grid-template-columns: 349px 1000px;
+}
+
+.ad-5 {
+    display: grid;
+    grid-template-columns: 579px 770px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 695%;
+}
+
+.check-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.ad-6 {
+    display: grid;
+    grid-template-columns: 579px 770px;
+
+    position: absolute;
+    top: 752%;
+}
+
+.latest-news {
+    position: absolute;
+    top: 180%;
+    /* left: 30%; */
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    color: black;
+    font-size: 16px;
+    padding: 120px 240px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; */
+    background-color: gray;
+    width: 1348px;
+    height: 600px;
+}
+
+.third-slide {
+    width: 1349px;
+    height: 10px;
+}
+
+.third-slide img {
+    width: 40px;
+    height: 350px;
+}
+
+.transparent-button {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.third-slide-text-positon {
+    position: absolute;
+    top: 70%;
+    margin-left: 20px;
+}
+
+.transparent-button-position {
+    position: absolute;
+    top: 55%;
+    margin-left: 10px;
+
+
+}
+
+.ad-7 {
+    display: grid;
+    grid-template-columns: 579px 770px;
+    background-color: rgb(235, 234, 234);
+    position: absolute;
+    top: 843%;
+    padding: 100px;
+}
+
+.input-name input {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.input-message input {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+}
+
+.check-box-submit {
+    margin-top: 20px;
+}
+
+.check-box-submit input {
+    width: 20px;
+    height: 20px;
+}
+
+.submit-button {
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+
+.in-touch-container {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+
+
+}
+
+.in-touch-container img {
+    width: 600px;
+}
