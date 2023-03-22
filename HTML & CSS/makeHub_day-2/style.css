@@ -485,11 +485,73 @@
 .in-touch-container {
     background-color: white;
     width: 600px;
-    height: 600px;
-
+    height: 575px;
+    box-shadow: 10px 10px 40px gray;
 
 }
 
-.in-touch-container img {
+.in-touch-container>div img {
     width: 600px;
+}
+
+.in-touch-left {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.contact-icon {
+    font-size: 30px;
+    padding: 15px;
+
+    border-radius: 40px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.contact-icon-L {
+    font-size: 30px;
+    padding: 15px 19px;
+
+    border-radius: 40px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.icon-size {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #4267B2;
+    border-radius: 40px;
+    box-shadow: 1px 5px 10px gray;
+    background-color: #fff;
+}
+
+.icon-size-f {
+    font-size: 20px;
+    padding: 15px 18px;
+    background-color: #4267B2;
+    border-radius: 40px;
+    box-shadow: 1px 5px 10px gray;
+    background-color: #fff;
+}
+
+.blog-button {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 1px 5px 10px gray;
+    background-color: #fff;
+
+}
+
+.ad-8 {
+    display: grid;
+    grid-template-columns: 579px 770px;
+    background-color: rgb(235, 234, 234);
+    position: absolute;
+    top: 984%;
+    padding: 100px;
 }
