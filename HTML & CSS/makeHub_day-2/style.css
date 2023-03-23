@@ -225,7 +225,7 @@
 
 .services-position {
     position: absolute;
-    top: 180%;
+    top: 176%;
     /* left: 30%; */
     /* transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -306,7 +306,7 @@
 
 .family-pic img {
     width: 674px;
-    height: 685px;
+    height: 703px;
     position: absolute;
 }
 
@@ -315,7 +315,7 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
     position: absolute;
-    top: 271%;
+    top: 258%;
 
 }
 
@@ -324,8 +324,9 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: grey;
     position: absolute;
-    top: 373%;
+    top: 365%;
     color: white;
+    height: 715px;
 }
 
 .ad-3 {
@@ -333,12 +334,12 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
     position: absolute;
-    top: 474%;
+    top: 473%;
 }
 
 .solar-worker img {
     width: 674px;
-    height: 729px;
+    height: 775px;
     position: absolute;
 }
 
@@ -347,7 +348,7 @@
     grid-template-columns: 800px 549px;
     background-color: rgb(235, 234, 234);
     position: absolute;
-    top: 580%;
+    top: 591%;
 }
 
 .uk-map img {
@@ -357,8 +358,8 @@
 }
 
 .save-bills img {
-    width: 674px;
-    height: 663px;
+    width: 675px;
+    height: 715px;
     position: absolute;
 }
 
@@ -372,7 +373,7 @@
     grid-template-columns: 579px 770px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 695%;
+    top: 712%;
 }
 
 .check-box {
@@ -386,7 +387,7 @@
     grid-template-columns: 579px 770px;
 
     position: absolute;
-    top: 752%;
+    top: 703%;
 }
 
 .latest-news {
@@ -444,10 +445,10 @@
 
 .ad-7 {
     display: grid;
-    grid-template-columns: 579px 770px;
+    grid-template-columns: 379px 770px;
     background-color: rgb(235, 234, 234);
     position: absolute;
-    top: 843%;
+    top: 789%;
     padding: 100px;
 }
 
@@ -486,7 +487,7 @@
     background-color: white;
     width: 600px;
     height: 575px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 5px 5px 40px gray;
 
 }
 
@@ -548,10 +549,34 @@
 }
 
 .ad-8 {
-    display: grid;
-    grid-template-columns: 579px 770px;
     background-color: rgb(235, 234, 234);
     position: absolute;
-    top: 984%;
-    padding: 100px;
+    top: 904%;
+    width: 1349px;
+
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: -10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: -45px;
 }
